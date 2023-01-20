@@ -117,15 +117,66 @@
 // 		}
 // 	}
 // });
-
 // 12
+// let inputs = document.querySelectorAll('input')
+// let button = document.querySelector('#btn')
 
+// let texts = [
+// 	'text1',
+// 	'text2',
+// 	'text3',
+// ];
+
+// button.addEventListener('click', func);
+// function func (){
+//     for(let i = 0; i < 3 ; i++){
+//         if (inputs[i].value === texts[i]) {
+//     			console.log('right')
+//         	} else {
+//     			console.log('wrong')
+//         	}
+//     }
+
+// }
 
 // 13
+// let inputs = document.querySelectorAll('input');
+// let btn = document.querySelector('#btn');
+// let sum = 0;
 
+// btn.addEventListener('click', function() {
+//     let sum = 0;
+//         for (let input of inputs) {
+//             sum += +input.value;
+//         }
+//         console.log(sum)
+	
+// 	console.log(sum);
+// });
 
 // 14
+// let btn  = document.querySelector('#btn');
+// let inp1 = document.querySelector('#inp1');
+// let inp2 = document.querySelector('#inp2');
+// let inp3 = document.querySelector('#inp3');
 
+
+
+// btn.addEventListener('click', function() {
+//     let sum  = +inp1.value + +inp2.value;
+// 	inp3.value = sum;
+// });
 
 // 15
+// let inp = document.querySelector('#inp');
 
+// inp.addEventListener('blur', function() {
+// 	let digits = inp.value.split('');
+// 	let sum = 0;
+	
+// 	for (let digit of digits) {
+// 		sum += +digit;
+// 	}
+	
+// 	console.log(sum);
+// });
